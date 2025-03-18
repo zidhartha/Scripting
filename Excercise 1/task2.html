@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Survey Form</title>
+</head>
+<body>
+   <h1>Feedback Survey Form</h1> 
+    <label for="name">Name:</label>
+    <input type="text" name="Name" required>
+    <label for="Email">Email:</label> 
+    <input type="email" required> 
+    <label for="age"> Age :</label> 
+    <input type="number" id="age" min="1" max="150" required>
+    <br><br> 
+    <label>Additional comments:</label>
+    <textarea rows="10" cols="30">       
+    </textarea>
+    <br><br>
+    <!--Drop down Select--> 
+    <label for="feedback-type">Type of Feedback:</label>
+    <select id="feedback-type" name="feedback_type" required>
+    <option value="" disabled selected>-- Select Feedback Type --</option>
+    <option value="complaint">Complaint</option>
+    <option value="suggestion">Suggestion</option>
+    <option value="inquiry">Inquiry</option>
+    <option value="other">Other</option>
+    </select>
+    <br>
+    <!--Checkboxes-->    
+    <input type="checkbox">service1
+    <input type="checkbox" name="" id="">service2
+    <input type="checkbox">service3
+    <br><br>
+    <button >Submit Feedback</button>
+</body>
+</html>
