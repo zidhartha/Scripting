@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.specialWord{
+    color: purple;
+}
+
+.card{
+    background-color : hsl(244, 38%, 16%);
+    width : 1000px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+.header{
+    width: 60%;
+    margin : 50px 50px 25px 50px;
+    color: white;
+    padding-top: 15px;
+}
+.paragraph{
+    line-height: 1.6;
+    width: 65%;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 50px 0 50px;
+}
+
+.footers1{
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.footers2{
+    color: white;
+    padding-top: 0px ;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
