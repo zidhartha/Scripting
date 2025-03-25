@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.Mtavari {
+    display: flex;
+}
+
+.container1, .container2 , .container3  {
+    border-left: 2px solid black;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 120px;
+    gap: 40px;
+}
+
+.container1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.container2 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.container3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.container4{
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+    border-radius: 40px;
+    margin : 0 auto;
+    
+}
