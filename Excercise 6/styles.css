@@ -1,0 +1,44 @@
+.container{
+    width: 800px;
+    height: 550px;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+.labelinput{
+    width: 100px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.topinputs {
+    display: flex;
+    justify-content: start;
+    width: fit-content; /* or set a fixed width like 350px */
+}
+
+
+input{
+    width: 100px;
+    height: 60px;
+    border: hsl(0, 4%, 74%) solid 1px;
+    border-radius: 5px;
+    font-size: 23px;
+    padding-left: 15px;
+    
+
+}
+
+h4{
+    color: hsl(0, 1%, 31%) ;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
